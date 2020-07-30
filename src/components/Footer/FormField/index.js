@@ -6,7 +6,7 @@ function FormField({ label, type, name, value, onChange }) {
             <label>
                 {label}: 
                 <input
-                    type={type}
+                    type={type}   //falta inserir o descricao e arrumar todos os bugss!!!
                     value={value}
                     name={name}
                     onChange={onChange}
