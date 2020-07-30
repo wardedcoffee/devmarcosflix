@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "black" }}>
+    <div style={{ background: "#191d22" }}>
       <Menu />
 
       <BannerMain
