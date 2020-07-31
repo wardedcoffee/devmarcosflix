@@ -29,16 +29,16 @@ function CadastroCategoria() {
     );
   }
 
-  useEffect(() => {
-    console.log('alo alo w brasil');
-    const URL_TOP = 'http://localhost:8080/categorias';
-    fetch(URL_TOP);
-      .then(async(respostaDoServidor) => {
-        const resposta = await respostaDoServidor.json();
-        setCategorias([
-          ...resposta,
-        ]);
-      });
+  // useEffect(() => {
+  //   console.log('alo alo w brasil');
+  //   const URL_TOP = 'http://localhost:8080/categorias';
+  //   fetch(URL_TOP);
+  //     .then(async(respostaDoServidor) => {
+  //       const resposta = await respostaDoServidor.json();
+  //       setCategorias([
+  //         ...resposta,
+  //       ]);
+  //     });
       
     // setTimeout(() => {
     //   setCategorias([
@@ -62,7 +62,7 @@ function CadastroCategoria() {
     //     },
     //   ]);
     // }, 4 * 1000);
-  }, []);
+  // }, []);
 
   return (
     <PageDefault>
