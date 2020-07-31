@@ -39,29 +39,29 @@ function CadastroCategoria() {
   //         ...resposta,
   //       ]);
   //     });
-      
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       categorias: [
-    //         {
-    //           id: 1,
-    //           nome: 'Front End',
-    //           descricao: 'Uma categoria bacana',
-    //           cor: '#cbd1ff',
-    //         },
-    //         {
-    //           id: 2,
-    //           nome: 'Back End',
-    //           descricao: 'Outra categoria bacana',
-    //           cor: '#cbd1ff',
-    //         },
 
-    //       ],
-    //     },
-    //   ]);
-    // }, 4 * 1000);
+  // setTimeout(() => {
+  //   setCategorias([
+  //     ...categorias,
+  //     {
+  //       categorias: [
+  //         {
+  //           id: 1,
+  //           nome: 'Front End',
+  //           descricao: 'Uma categoria bacana',
+  //           cor: '#cbd1ff',
+  //         },
+  //         {
+  //           id: 2,
+  //           nome: 'Back End',
+  //           descricao: 'Outra categoria bacana',
+  //           cor: '#cbd1ff',
+  //         },
+
+  //       ],
+  //     },
+  //   ]);
+  // }, 4 * 1000);
   // }, []);
 
   return (
