@@ -31,7 +31,38 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('alo alo w brasil');
-  });
+    const URL_TOP = 'http://localhost:8080/categorias';
+    fetch(URL_TOP);
+      .then(async(respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+      
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       categorias: [
+    //         {
+    //           id: 1,
+    //           nome: 'Front End',
+    //           descricao: 'Uma categoria bacana',
+    //           cor: '#cbd1ff',
+    //         },
+    //         {
+    //           id: 2,
+    //           nome: 'Back End',
+    //           descricao: 'Outra categoria bacana',
+    //           cor: '#cbd1ff',
+    //         },
+
+    //       ],
+    //     },
+    //   ]);
+    // }, 4 * 1000);
+  }, []);
 
   return (
     <PageDefault>
@@ -78,9 +109,11 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {categorias.length === 0 && (
       <div>
         Loading...
       </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
