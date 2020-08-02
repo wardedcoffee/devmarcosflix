@@ -20,37 +20,32 @@ function CadastroCategoria() {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://devmarcosflix.herokuapp.com/categorias';
-    //
-    // fetch(URL_TOP);
-    //   .then(async (respostaDoServidor) => {
-    //     const resposta = await respostaDoServidor.json();
-    //     setCategorias([
-    //       ...resposta,
-    //     ]);
-    //   });
+    
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
 
-    //   setTimeout(() => {
-    //     setCategorias([
-    //       ...categorias,
-    //       {
-    //         categorias: [
-    //           {
-    //             id: 1,
-    //             nome: 'Front End',
-    //             descricao: 'Uma categoria bacana',
-    //             cor: '#cbd1ff',
-    //           },
-    //           {
-    //             id: 2,
-    //             nome: 'Back End',
-    //             descricao: 'Outra categoria bacana',
-    //             cor: '#cbd1ff',
-    //           },
-
-  //         ],
-  //       },
-  //     ]);
-  //   }, 4 * 1000);
+  // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: 'Front End',
+    //       descricao: 'Uma categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     },
+    //     {
+    //       id: 2,
+    //       nome: 'Back End',
+    //       descricao: 'Outra categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     },
+    //   ]);
+    // }, 4 * 1000);
   }, []);
 
   return (
