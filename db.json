@@ -2,8 +2,8 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "TOP 10",
-      "cor": "#2d3436",
+      "titulo": "TOP 10 MUSIC",
+      "cor": "black",
       "link_extra": {
         "text": "",
         "url": ""
@@ -11,34 +11,34 @@
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#2d3436",
+      "titulo": "Séries",
+      "cor": "#black",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 3,
       "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "cor": "#black",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 4,
       "titulo": "Filmes",
-      "cor": "orange"
+      "cor": "#black"
     },
     {
       "id": 5,
       "titulo": "Games",
-      "cor": "red",
+      "cor": "#black",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -106,32 +106,32 @@
     {
       "id": 11,
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "titulo": "Breaking Bad: Explosions Compilation",
+      "url": "https://www.youtube.com/watch?v=XW7_gm3Qfeg"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "titulo": "True Detective - Season 1: Trailer - Official HBO UK",
+      "url": "https://www.youtube.com/watch?v=fVQUcaO4AvE"
     },
     {
       "id": 13,
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "titulo": "Mr. Robot - Launch Trailer | Prime Video",
+      "url": "https://www.youtube.com/watch?v=N6HGuJC--rk"
     },
     {
       "id": 14,
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "titulo": "Dark Season 3 | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=cq2iTHoLrt0"
     },
     {
       "id": 15,
       "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "titulo": "Peaky Blinders |Trailer - Temporada 5 |Netflix",
+      "url": "https://www.youtube.com/watch?v=Uv8bfaxl9j4"
     },
     {
       "id": 16,
